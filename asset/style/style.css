@@ -1,0 +1,53 @@
+/* ------------------------FONTS----------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
+/* font-family: 'Mulish', sans-serif; */
+/* ------------------------VARSS----------------------*/
+
+:root{
+    --Muslish:'Mulish', sans-serif;
+    --ligthblue:#04146c;
+    --darkblue:#0a2ff1;
+}
+
+/* ------------------------ALL----------------------*/
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--Muslish);
+}
+/* ------------------------COMPONENT----------------------*/
+
+.container__tiltle{
+font-size: 35px;
+color: var(--ligthblue);
+font-weight: 900 ;
+}
+
+.container__img{
+    width: 55px;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 60vh;
+    border: solid 2px var(--ligthblue);
+    margin:20vh auto ;
+    padding: 2rem;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+.container__card{
+    display: flex;
+    gap: 15px;
+}
+.container__subtitle{
+    color: var(--darkblue);
+    font-size: 20px;
+}
+
